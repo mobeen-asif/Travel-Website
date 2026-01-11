@@ -101,6 +101,10 @@ h3 {
   background: #fcf3f2;
 }
 
+.bg-dark{
+  background: #263238;
+}
+
 /* ####################### header styling ###################### */
 
 .header {
@@ -130,11 +134,11 @@ h3 {
   border-bottom: 1px solid #fff;
 }
 
-.header .navbar .logo {
+.navbar .logo {
   float: left;
 }
 
-.header .navbar .nav-items {
+.navbar .nav-items {
   float: right;
   margin-top: 1rem;
 }
@@ -145,7 +149,7 @@ h3 {
   clear: both;
 }
 
-.header .navbar .nav-item {
+.navbar .nav-item {
   display: inline-block;
   padding: 1rem;
   text-transform: uppercase;
@@ -268,4 +272,214 @@ h3 {
 
 .footer .social-media-links i{
   margin: 2rem;
+}
+
+/* ######################## about page styling ############################ */
+
+.about{
+  padding: 5rem 0;
+}
+
+.about-heading::after{
+  content: "";
+  display: block;
+  border: 3px solid #e63946;
+  width: 100%;
+}
+
+.about-wrapper{
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.about-wrapper .left{
+  float: left;
+  width: 50%;
+}
+
+.about-wrapper .right{
+  float: right;
+  width: 50%;
+}
+
+.about-wrapper::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.about-wrapper li::before{
+  content: "\2713";
+  color: #e63946;
+  font-weight: bold;
+  padding-right: 1rem;
+}
+
+.counts{
+  margin-top: 3rem;
+}
+
+.count-item{
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+.counts::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.count-item span{
+  font-size: 3rem;
+  font-weight: 700;
+  color: #e63946;
+}
+
+.count-item p{
+  font-weight: 700;
+  color: #555555;
+  font-size: 1.8rem;
+}
+
+.cta-banner{
+  background: linear-gradient(25deg, #d64c7f, #ee4658 50%);
+  color: #f4f4f4;
+  padding: 1rem;
+  box-shadow: 5px 5px 10px #00000057;
+  margin-top: 3rem;
+}
+
+.cta-banner-left{
+  float: left;
+  width: 60%;
+}
+
+.cta-banner-right{
+  float: right;
+  width: 40%;
+  text-align: right;
+}
+
+.cta-banner::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.cta-line{
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 1.5rem;
+}
+
+.btn-cta{
+  text-align: center;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 3rem;
+  text-transform: uppercase;
+  border: 4px solid white;
+  padding: 0.3em 2.5em;
+  letter-spacing: 0.5rem;
+  color: #f4f4f4;
+}
+
+/* ####################### contact page styling ########################## */
+
+.contact-form{
+  padding: 5rem 0;
+  background: #f7f7f7;
+}
+
+.form-wrapper .company-details{
+  height: 760px;
+  width: 49%;
+  float: left;
+  background: #ffffff;
+}
+
+.form-wrapper .form{
+  height: 760px;
+  padding: 1.5rem;
+  width: 49%;
+  float: right;
+  background: #ffffff;
+  font-size: 1.6rem;
+}
+
+.form-wrapper .company-details i{
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.form-wrapper .company-details .address-group a{
+  display: block;
+}
+
+.form-wrapper .company-details h2{
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.form-wrapper::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.form-wrapper .address-group{
+  margin: 3rem;
+}
+
+.form-wrapper img{
+  max-width: 90%;
+  min-height: 30rem;
+  object-fit: cover;
+  object-position: right;
+}
+
+.form h1::after{
+  content: "";
+  display: block;
+  border: 3px solid #e63946;
+  width: 100%;
+}
+
+.form-wrapper label{
+  display: block;
+}
+
+.form-wrapper .form input{
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.form-wrapper .form .form-group{
+  margin-bottom: 1.2rem;
+}
+
+.form-wrapper .form label::after{
+  content: "*";
+  color: #e63946;
+}
+
+.form-wrapper .form textarea{
+  width: 100%;
+  height: 300px;
+  padding: 1rem;
+}
+
+.form-btn{
+  display: block;
+  margin: 0 auto;
+  padding: 0.5em 3em;
+  font-size: 1.8rem;
+  background: #e63946;
+  text-transform: uppercase;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
