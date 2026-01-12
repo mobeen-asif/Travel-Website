@@ -82,7 +82,7 @@ cd travel-sphere
 - Improve accessibility
 - Convert into a dynamic travel platform
 
-## 👤 Author
+## 👤 Developer
 
 Created and designed by **Mobeen Asif**.
 
