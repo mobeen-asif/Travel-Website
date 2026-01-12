@@ -272,7 +272,7 @@ h3 {
 /* ######################## about page styling ############################ */
 
 .about{
-  padding: 5rem 0;
+  padding: 3rem 0;
 }
 
 .about-heading::after{
@@ -365,7 +365,7 @@ h3 {
 
 .cta-line{
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-top: 1.5rem;
 }
 
@@ -373,7 +373,7 @@ h3 {
   text-align: center;
   display: inline-block;
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 2rem;
   text-transform: uppercase;
   border: 4px solid white;
   padding: 0.3em 2.5em;
