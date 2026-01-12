@@ -190,11 +190,6 @@ h3 {
 
 .row-1{
   margin-bottom: 10rem;
-  display: flex;
-}
-
-.row-2{
-  display: flex;
 }
 
 .row-1 .img-box, .row-2 .text-box{
@@ -203,7 +198,7 @@ h3 {
 }
 
 .row-2 .img-box, .row-1 .text-box{
-  float: left;
+  float: right;
   width: 50%;
 }
 
@@ -482,4 +477,155 @@ h3 {
   outline: none;
   border: none;
   cursor: pointer;
+}
+
+/* ######################## media queries ######################## */
+
+@media (max-width: 500px){
+  html{
+    font-size: 50%;
+  }
+
+  .navbar .nav-items, .navbar .logo{
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .header-content .main-heading{
+    display: none;
+  }
+
+  .row{
+    height: auto;
+    width: 100%;
+  }
+
+  .row .img-box, .row .text-box{
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .feature .box{
+    float: none;
+    width: 100%;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(102, 102, 102, 0.521);
+  }
+
+  .feature .box-2, .feature .box-3 {
+    margin-top: 7rem;
+  }
+
+  .box-wrapper{
+    box-shadow: none;
+  }
+
+  .cta-banner-left, .cta-banner-right{
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .form-wrapper .company-details{
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5rem;
+  }
+
+  .form-wrapper .form{
+    float: none;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 768px){
+    html{
+    font-size: 50%;
+  }
+
+  p{
+    font-size: 1.8rem;
+  }
+
+  .navbar .nav-items, .navbar .logo{
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .header-content .main-heading{
+    display: none;
+  }
+
+  .row{
+    height: auto;
+    width: 100%;
+  }
+
+  .row .img-box, .row .text-box{
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .feature .box{
+    float: none;
+    width: 100%;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(102, 102, 102, 0.521);
+  }
+
+  .feature .box-2, .feature .box-3 {
+    margin-top: 7rem;
+  }
+
+  .box-wrapper{
+    box-shadow: none;
+  }
+
+  .cta-banner-left, .cta-banner-right{
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .form-wrapper .company-details{
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5rem;
+  }
+
+  .form-wrapper .form{
+    float: none;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px){
+  html{
+    font-size: 56.25%;
+  }
+
+  .row .text-box h2{
+    font-size: 2.2rem;
+    font-weight: 500;
+  }
+
+  .row .text-box{
+  padding: 2rem;
+}
+}
+
+@media (orientation: landscape) and (max-height: 500px){
+  .header{
+    height: 90vmax;
+  }
 }
